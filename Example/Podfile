@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIButton-VerticalLayout_Example' do
+  pod 'UIButton-VerticalLayout', :path => '../'
+
+  target 'UIButton-VerticalLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
